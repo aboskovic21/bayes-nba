@@ -10,7 +10,7 @@ After cleaning the data and a model selection process, we choose the following m
 
 $$Y_i | X_i, \beta,\phi \sim \text{Beta}(a_i, b_i)$$
 
-$$\text{logit}(\mu_i) = \beta_0 + beta_1X_1 +\dots+ \beta_{11}X_{11}$$
+$$\text{logit}(\mu_i) = \beta_0 + \beta_1X_1 +\dots+ \beta_{11}X_{11}$$
 
 $$a_i = \mu_i \times \phi$$
 
