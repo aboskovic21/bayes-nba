@@ -3,7 +3,7 @@
 In this project, we fit a model to predict the NBA's MVP for a particular season based on their playing statistics. The NBA chooses the MVP via a voting system, and the player with the highest amount of points, the maximum of which varies by year and ranges from 1000 to 1400, wins MVP. A sensible way to boil down this problem is to predict the vote share of each potential candidate and assign the predicted winner to whoever won the majority vote for that year.
 
 ### Data Acquisition
-We acquired data on MVP status for players from the MVP page of [basketball-reference.com](basketball-reference.com) for each year by webscraping it with the `rvest` package. We fit the model based on the year range 2000-2021, and the scraping script is shown in `scraper.R`.
+We acquired data on MVP status for players from the MVP page of [basketball-reference.com](basketball-reference.com) for each year by webscraping it with Beautiful Soup in Python. We fit the model based on the year range 2000-2021.
 
 ### Model
 After cleaning the data and a model selection process, we choose the following model:
