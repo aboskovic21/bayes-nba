@@ -24,4 +24,4 @@ We fit this model using JAGS via `rjags`, a Bayesian model fitting software. Mor
 3. `model_code.Rmd`: Code to fit the model and do some model checks.
 4. `mvpdata.csv`: MVP dataset from 2000-2021 scraped from basketball reference.
 5. `report.pdf`: Full, formal report describing the model-fitting process.
-6. `scraper.R`: code for scraping MVP data from basketball reference.
+6. `scrape_nba.ipynb`: code for scraping MVP data from basketball reference.
